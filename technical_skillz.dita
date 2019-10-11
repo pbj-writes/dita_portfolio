@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ems_zjy_3jb">
+    <title>Technical Skills</title>
+    <body>
+        <p>
+            <simpletable frame="none" id="simpletable_bkz_5fz_3jb">
+                <strow>
+                    <stentry><b>Languages, Editors, &amp; Tools</b></stentry>
+                    <stentry/>
+                    <stentry><b>Database Applications</b></stentry>
+                    <stentry/>
+                    <stentry><b>Project Management Software</b></stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_q3g_kgz_3jb">
+                            <li>XML</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_rh5_rgz_3jb">
+                            <li>Microsoft SQL Server</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_rvn_xhz_3jb">
+                            <li>Microsoft Office</li>
+                        </ul>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_okr_kgz_3jb">
+                            <li>HTML</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_rxd_tgz_3jb">
+                            <li>Oracle db solutions</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_ykv_xhz_3jb">
+                            <li>Microsoft Project</li>
+                        </ul>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_i3p_mgz_3jb">
+                            <li>oXygen XML Editor</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_ohp_tgz_3jb">
+                            <li>Microsoft Access</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry/>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_hhd_ngz_3jb">
+                            <li>ArborText Editor</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_uzx_tgz_3jb">
+                            <li>Alchemy</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry><b>Collaboration Systems</b></stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_m3w_ngz_3jb">
+                            <li>XMetaL XML Editor</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry/>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_byj_zhz_3jb">
+                            <li>Bitbucket</li>
+                        </ul>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_cnl_4gz_3jb">
+                            <li>SDL LiveContent Architect</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry><b>Design Software</b></stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_qfq_zhz_3jb">
+                            <li>SharePoint</li>
+                        </ul>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_fhd_pgz_3jb">
+                            <li>Notepad++</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_atd_yhz_3jb">
+                            <li>Adobe Photoshop</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_z2w_zhz_3jb">
+                            <li>IBM Jazz</li>
+                        </ul>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_qrn_pgz_3jb">
+                            <li>Bluebeam Revu</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_yqj_yhz_3jb">
+                            <li>Adobe InDesign</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_uzc_13z_3jb">
+                            <li>Confluence</li>
+                        </ul>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_zyy_pgz_3jb">
+                            <li>Snagit</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_p2q_yhz_3jb">
+                            <li>Adobe Illustrator</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_l4j_13z_3jb">
+                            <li>Slack</li>
+                        </ul>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_lqg_qgz_3jb">
+                            <li>Camtasia</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_xwv_yhz_3jb">
+                            <li>Microsoft Visio</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_mzq_13z_3jb">
+                            <li>Jira</li>
+                        </ul>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry>
+                        <ul id="ul_vwn_qgz_3jb">
+                            <li>LibGuides</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_k4c_zhz_3jb">
+                            <li>Lucidchart</li>
+                        </ul>
+                    </stentry>
+                    <stentry/>
+                    <stentry>
+                        <ul id="ul_v3x_13z_3jb">
+                            <li>Jive</li>
+                        </ul>
+                    </stentry>
+                </strow>
+            </simpletable>
+        </p>
+        
+    </body>
+</topic>
