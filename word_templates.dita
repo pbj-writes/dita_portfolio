@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="word_templates">
+    <title>Word Templates</title>
+    <body>
+        <p>I have two Microsoft Word templates available for sharing as PDFs. Why PDF, you say?
+            Well, these are my works and if you like what you see then you can ask me about them. </p>
+        <p>
+            <note>These were former work products but they are posted in a generic format.</note>
+        </p>
+        <p>This template is used for technical documents such as design or architecture docs: <xref
+                href="doc_template_1.pdf" format="pdf"/></p>
+        <p>This template is used for reports or requests: <xref href="doc_template_2.pdf"
+                format="pdf"/></p>
+    </body>
+</topic>

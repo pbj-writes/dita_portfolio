@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <map>
+   <appContext helpID="pbjs_resume_and_portfolio"
+               path="pbjs_resume_and_portfolio.html"/>
+   <appContext helpID="pbjs_resume" path="pbjs_resume.html"/>
    <appContext helpID="topic_mgn_sgy_3jb" path="summary.html"/>
    <appContext helpID="topic_n2h_mjy_3jb" path="experience.html"/>
    <appContext helpID="topic_dst_pjy_3jb" path="FICO.html"/>
@@ -11,4 +14,6 @@
    <appContext helpID="suny_cortland" path="suny_cortland.html"/>
    <appContext helpID="topic_ems_zjy_3jb" path="technical_skillz.html"/>
    <appContext helpID="topic_a41_ghz_3jb" path="contact.html"/>
+   <appContext helpID="topic_mvk_jgg_jjb" path="pbjs_portfolio.html"/>
+   <appContext helpID="word_templates" path="word_templates.html"/>
 </map>
