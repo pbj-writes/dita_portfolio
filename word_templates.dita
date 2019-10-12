@@ -6,11 +6,15 @@
         <p>I have two Microsoft Word templates available for sharing as PDFs. Why PDF, you say?
             Well, these are my works and if you like what you see then you can ask me about them. </p>
         <p>
-            <note>These were former work products but they are posted in a generic format.</note>
+            <note>These were former work products but they are posted in a generic format. See the
+                link below for example how-to use this template procedures.</note>
         </p>
         <p>This template is used for technical documents such as design or architecture docs: <xref
                 href="doc_template_1.pdf" format="pdf"/></p>
         <p>This template is used for reports or requests: <xref href="doc_template_2.pdf"
                 format="pdf"/></p>
     </body>
+    <related-links>
+        <link href="how_to_use_this_template.dita"/>
+    </related-links>
 </topic>

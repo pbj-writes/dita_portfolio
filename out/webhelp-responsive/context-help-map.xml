@@ -16,4 +16,7 @@
    <appContext helpID="topic_a41_ghz_3jb" path="contact.html"/>
    <appContext helpID="topic_mvk_jgg_jjb" path="pbjs_portfolio.html"/>
    <appContext helpID="word_templates" path="word_templates.html"/>
+   <appContext helpID="topic_agv_y4j_jjb" path="how-to.html"/>
+   <appContext helpID="how_to_use_this_template" path="how_to_use_this_template.html"/>
+   <appContext helpID="video_instructions" path="video_instructions.html"/>
 </map>

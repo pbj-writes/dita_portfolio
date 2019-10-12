@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="video_instructions">
+    <title>Video Instructions</title>
+    <body>
+        <p>Granted these are from the time of different screensizes and at least seven years old but
+            I worked with what I had at a public university to create instructions for graduate
+            students to aid in formatting and submission of electronic theses and disserations
+            (ETD). <note>All the following videoes were produced with Camtasia screencapture
+                software. </note></p>
+        <p>The proceeding video tutorial assists students with understanding how to sign-up for an
+            account with the university's institutional repository so the student can submit the ETD
+            (explained in another video). </p>
+        <p><object width="560" height="315" data="https://www.youtube.com/embed/o58nKD4CaZ4"
+                outputclass="iframe">
+                <param name="allowfullscreen"/>
+            </object></p>
+        <p>This next video assists students who may not be familiar with Microsoft Word with how to
+            generate a table of contents automatically. </p>
+        <p><object width="560" height="315" data="https://www.youtube.com/embed/0uaNYw0F4rU"
+                outputclass="iframe">
+                <param name="allowfullscreen"/>
+            </object></p>
+        <p>This last video example assists students with their signature page, which is an important
+            page showing the sign-off for students' theses or dissertations. This video also
+            demonstrates how I templated the signature page as a form to more easily help students
+            incorporate it without mistakes. </p>
+        <p><object width="560" height="315" data="https://www.youtube.com/embed/GgZ2wfLp-ro"
+                outputclass="iframe">
+                <param name="allowfullscreen"/>
+            </object></p>
+    </body>
+</topic>

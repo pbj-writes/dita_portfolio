@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE task PUBLIC "-//OASIS//DTD DITA General Task//EN" "generalTask.dtd">
+<task id="task_s11_55k_jjb">
+    <title>build and deploy this website</title>
+    <shortdesc>This procedure steps through the process that was undertaken to build and deploy this
+        website <u>on a Mac</u>.</shortdesc>
+    <taskbody>
+        <context><note>Under normal circumstances, a procedure like this would be broken into
+                several tasks. Keep in mind that the purpose of this procedure is to demonstrate an
+                ability to leverage a breadth of DITA authoring capabilities.</note>The following
+            tools were utilized for this task:<table frame="all" rowsep="0" colsep="0"
+                id="table_trv_nvk_jjb">
+                <title>Tools for building philipboltonjr.com</title>
+                <tgroup cols="2" align="left">
+                    <colspec colname="c1" colnum="1" colwidth="1*"/>
+                    <colspec colname="c2" colnum="2" colwidth="1*"/>
+                    <thead>
+                        <row>
+                            <entry>Tool</entry>
+                            <entry>Purpose or Role</entry>
+                        </row>
+                    </thead>
+                    <tbody>
+                        <row>
+                            <entry>Oxygen XML Editor</entry>
+                            <entry>Used to author the source files and publish the output web
+                                files</entry>
+                        </row>
+                        <row>
+                            <entry>Snagit</entry>
+                            <entry>Used for screenshots and playable gifs</entry>
+                        </row>
+                        <row>
+                            <entry>GoDaddy</entry>
+                            <entry>Used to purchase domain, hosting, and web security
+                                services</entry>
+                        </row>
+                        <row>
+                            <entry>Homebrew</entry>
+                            <entry>Used as prerequisite to installing Git</entry>
+                        </row>
+                        <row>
+                            <entry>Git</entry>
+                            <entry>Used version controlling the source and output files </entry>
+                        </row>
+                        <row>
+                            <entry>GitHub</entry>
+                            <entry>Used as source and output file repository</entry>
+                        </row>
+                        <row>
+                            <entry>Terminal</entry>
+                            <entry>Used as Git CLI </entry>
+                        </row>
+                    </tbody>
+                </tgroup>
+            </table></context>
+        <steps>
+            <step>
+                <cmd>Navigate to <xref
+                        href="https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html"
+                        format="html" scope="external"/></cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Download</uicontrol></cmd>
+                <stepresult>A form appears alongside the download pop-up </stepresult>
+            </step>
+            <step>
+                <cmd>Select a location to save the Oxygen XML Editor download</cmd>
+            </step>
+            <step>
+                <cmd>Fill-out the form with a valid email address in order to receive the 30-day
+                    trial license</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Get Trial License</uicontrol></cmd>
+            </step>
+            <step>
+                <cmd>Check email and copy the trial license text</cmd>
+            </step>
+            <step>
+                <cmd>Open the Oxygen XML Editor download package</cmd>
+            </step>
+            <step>
+                <cmd>Enter the license information</cmd>
+            </step>
+            <step>
+                <cmd>Open Terminal</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to <xref href="https://brew.sh/" format="html" scope="external"/> and
+                    copy the following "Install Homebrew" command and paste it into Terminal </cmd>
+                <info>
+                    <codeblock>$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Hit return to install Homebrew</cmd>
+            </step>
+            <step>
+                <cmd>After the Homebrew installation complets, navigate to <xref
+                        href="https://git-scm.com/book/en/v1/Getting-Started-Installing-Git"
+                        format="html" scope="external"/> and copy the following command in Terminal </cmd>
+                <info>
+                    <codeblock>$ brew install git</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>Hit return to install Git</cmd>
+            </step>
+            <step>
+                <cmd>Navigate to <xref href="https://github.com" format="html" scope="external"
+                    /></cmd>
+            </step>
+            <step>
+                <cmd>Login with credentials</cmd>
+            </step>
+            <step>
+                <cmd>In the top toolbar, click <menucascade>
+                        <uicontrol>+</uicontrol>
+                        <uicontrol>New Repository</uicontrol>
+                    </menucascade></cmd>
+                <stepresult>A form will appear</stepresult>
+            </step>
+            <step>
+                <cmd>In the Repository name field, type dita_portfolio</cmd>
+            </step>
+            <step>
+                <cmd importance="optional">In the Description field, type a description</cmd>
+            </step>
+            <step>
+                <cmd>Keep the Public repository setting</cmd>
+            </step>
+            <step>
+                <cmd importance="optional">Select the checkbox to Initialize this repository with a
+                    README</cmd>
+            </step>
+            <step>
+                <cmd>Click <uicontrol>Create repository</uicontrol></cmd>
+            </step>
+            <step>
+                <cmd>From the repository page, click <uicontrol>Clone or download</uicontrol></cmd>
+                <stepresult>A dropdown menu appears.</stepresult>
+            </step>
+            <step>
+                <cmd>In the upper right of the dropdown menu, click <uicontrol>Use
+                    SSH</uicontrol></cmd>
+            </step>
+            <step>
+                <cmd>Click the copy button to copy the clone repository path which is in the
+                    following format:</cmd>
+                <info>
+                    <codeblock>git@github.com:&lt;username>/&lt;repository name>.git</codeblock>
+                </info>
+            </step>
+            <step>
+                <cmd>In Terminal, navigate to the desired root folder for the Git repository with
+                    the cd command</cmd>
+            </step>
+            <step>
+                <cmd>Run the following command: </cmd>
+                <info>
+                    <codeblock>$ git clone git@github.com:&lt;username>/&lt;repository name>.git</codeblock>
+                </info>
+                <stepresult>Experience an error and bang head against the table since the SSH keys
+                    were forgotten.</stepresult>
+            </step>
+            <step>
+                <cmd>Navigate to your public key and copy it</cmd>
+                <info>If the case where new keys need to be generated, use the the following
+                    guidance from GitHub: <xref
+                        href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"
+                        format="html" scope="external"/></info>
+            </step>
+            <step>
+                <cmd/>
+            </step>
+        </steps>
+    </taskbody>
+</task>

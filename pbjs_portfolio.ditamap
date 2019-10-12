@@ -4,5 +4,9 @@
     <title>Philip Bolton Jr's Portfolio</title>
     <topicref href="pbjs_portfolio.dita">
         <topicref href="word_templates.dita"/>
+        <topicref href="how-to.dita">
+            <topicref href="how_to_use_this_template.dita"/>
+        </topicref>
+        <topicref href="video_instructions.dita"/>
     </topicref>
 </map>
