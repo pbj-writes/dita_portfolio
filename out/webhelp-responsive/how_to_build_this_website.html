@@ -1,0 +1,362 @@
+
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:whc="http://www.oxygenxml.com/webhelp/components" xml:lang="en" lang="en" whc:version="21.1">
+    <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /><meta charset="UTF-8" /><meta name="copyright" content="(C) Copyright 2019" /><meta name="DC.rights.owner" content="(C) Copyright 2019" /><meta name="DC.type" content="task" /><meta name="description" content="This procedure steps through the process that was undertaken to build and deploy this website on a Mac." /><meta name="DC.relation" scheme="URI" content="how-to.html" /><meta name="DC.format" content="HTML5" /><meta name="DC.identifier" content="task_s11_55k_jjb" />        
+      <title>build and deploy this website</title><!--  Generated with Oxygen version 21.1, build number 2019083011.  --><meta name="wh-path2root" content="" /><meta name="wh-toc-id" content="task_s11_55k_jjb-d62e157" /><link rel="stylesheet" type="text/css" href="./oxygen-webhelp/lib/bootstrap/css/bootstrap.min.css" /><link rel="stylesheet" href="./oxygen-webhelp/lib/jquery-ui/jquery-ui.min.css" /><link rel="stylesheet" type="text/css" href="./oxygen-webhelp/app/topic-page.css?buildId=2019083011" /><script type="text/javascript" src="./oxygen-webhelp/lib/jquery/jquery-3.4.1.min.js"><!----></script><script data-main="./oxygen-webhelp/app/topic-page.js" src="./oxygen-webhelp/lib/requirejs/require.js"></script><link rel="stylesheet" type="text/css" href="oxygen-webhelp/template/oxygen-gray.css?buildId=2019083011" /></head>
+
+    <body id="task_s11_55k_jjb" class="wh_topic_page frmBody">
+        <a href="#wh_topic_body" class="sr-only sr-only-focusable">Jump to main content</a>
+        <!-- EXM-36950 - Expand the args.hdr parameter here -->
+        
+        
+        
+        <header class="navbar navbar-default wh_header" whc:version="21.1">
+    <div class="container-fluid">
+        <div class="wh_header_flex_container navbar-nav navbar-expand-md navbar-dark">
+            <div class="wh_logo_and_publication_title_container">
+                <div class="wh_logo_and_publication_title">
+                    
+                    <!--
+                            This component will be generated when the next parameters are specified in the transformation scenario:
+                            'webhelp.logo.image' and 'webhelp.logo.image.target.url'.
+                            See: http://oxygenxml.com/doc/versions/17.1/ug-editor/#topics/dita_webhelp_output.html.
+                    -->
+                    
+                    <div class=" wh_publication_title "><a href="index.html"><span class="title">Philip Bolton Jr's Resume and Portfolio</span></a></div>
+                    
+                </div>
+                
+                <!-- The menu button for mobile devices is copied in the output only when the 'webhelp.show.top.menu' parameter is set to 'yes' -->
+                <button type="button" data-target="#wh_top_menu_and_indexterms_link" id="wh_menu_mobile_button" data-toggle="collapse" class="navbar-toggler collapsed wh_toggle_button" aria-expanded="false" aria-label="Toggle menu" aria-controls="wh_top_menu_and_indexterms_link">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+
+            <div class="wh_top_menu_and_indexterms_link collapse navbar-collapse" id="wh_top_menu_and_indexterms_link">
+                
+                <nav class=" wh_top_menu "><ul xmlns:xhtml="http://www.w3.org/1999/xhtml" role="menubar" aria-label="Menu"><li role="menuitem"><span id="pbjs_resume_and_portfolio-d62e11-mi" data-tocid="pbjs_resume_and_portfolio-d62e11" data-state="leaf" class=" topicref " data-id="pbjs_resume_and_portfolio"><span class="title"><a href="pbjs_resume_and_portfolio.html">About this Resume and Portfolio</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="pbjs_resume-d62e20-mi" data-tocid="pbjs_resume-d62e20" data-state="not-ready" class=" topicref " data-id="pbjs_resume"><span class="title"><a href="pbjs_resume.html">Resume</a></span></span></li><li role="menuitem" aria-haspopup="true" aria-expanded="false" class="has-children"><span id="topic_mvk_jgg_jjb-d62e117-mi" data-tocid="topic_mvk_jgg_jjb-d62e117" data-state="not-ready" class=" topicref " data-id="topic_mvk_jgg_jjb"><span class="title"><a href="pbjs_portfolio.html">Portfolio</a></span></span></li></ul></nav>
+                
+                
+            </div>
+        </div>
+    </div>
+</header>
+        
+        <div class=" wh_search_input "><form id="searchForm" method="get" role="search" action="search.html"><div><input type="search" placeholder="Search " class="wh_search_textfield" id="textToSearch" name="searchQuery" aria-label="Search query" required="required" /><button type="submit" class="wh_search_button" aria-label="Search"><span>Search</span></button></div></form></div>
+        
+        <div class="container-fluid" id="wh_topic_container">
+            <div class="row">
+
+                <nav class="wh_tools d-print-none navbar-expand-md">
+                    <div data-tooltip-position="bottom" class=" wh_breadcrumb "><ol xmlns:html="http://www.w3.org/1999/xhtml" class="d-print-none"><li><span class="home"><a href="index.html"><span>Home</span></a></span></li><li><span class="topicref" data-id="topic_mvk_jgg_jjb"><span class="title"><a href="pbjs_portfolio.html">Portfolio</a></span></span></li><li><span class="topicref" data-id="topic_agv_y4j_jjb"><span class="title"><a href="how-to.html">How-to...</a></span></span></li><li class="active"><span class="topicref" data-id="task_s11_55k_jjb"><span class="title"><a href="how_to_build_this_website.html">build and deploy this website</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">This procedure steps through the process that was undertaken to build and deploy this         website <u class="ph u">on a Mac</u>.</p></span></span></span></li></ol></div>
+
+                    <div class="wh_right_tools">
+                        <button class="wh_hide_highlight" aria-label="Toggle search highlights" title="Toggle search highlights"></button>
+                        <button class="webhelp_expand_collapse_sections" data-next-state="collapsed" aria-label="Collapse sections" title="Collapse sections"></button>
+                        <div class=" wh_navigation_links "><span id="topic_navigation_links" class="navheader">
+  </span></div>
+                        <div class=" wh_print_link print d-none d-md-inline-block "><button onClick="window.print()" title="Print this page" aria-label="Print this page"></button></div>
+                        
+                        <!-- Expand/Collapse publishing TOC 
+                             The menu button for mobile devices is copied in the output only when the publication TOC is available
+                        -->
+                        <button type="button" data-target="#wh_publication_toc" id="wh_toc_button" data-toggle="collapse" class="custom-toggler navbar-toggler collapsed wh_toggle_button navbar-light" aria-expanded="false" aria-label="Toggle publishing table of content" aria-controls="wh_publication_toc">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </nav>
+            </div>
+
+            <div class="wh_content_area">
+                <div class="row">
+                    
+                        <nav role="navigation" id="wh_publication_toc" class="collapse col-lg-3 col-md-3 col-sm-12 d-md-block">
+                            <div class=" wh_publication_toc " data-tooltip-position="right"><ul role="tree" aria-label="Table of Contents"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem" aria-expanded="true"><span data-tocid="topic_mvk_jgg_jjb-d62e117" class="topicref" data-id="topic_mvk_jgg_jjb" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action topic_mvk_jgg_jjb-d62e117-link" class="wh-expand-btn"></span><span class="title"><a href="pbjs_portfolio.html" id="topic_mvk_jgg_jjb-d62e117-link">Portfolio</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="word_templates-d62e125" class="topicref" data-id="word_templates" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="word_templates.html" id="word_templates-d62e125-link">Word Templates</a></span></span></li><li role="treeitem" aria-expanded="true"><span data-tocid="topic_agv_y4j_jjb-d62e133" class="topicref" data-id="topic_agv_y4j_jjb" data-state="expanded"><span role="button" tabindex="0" aria-labelledby="button-collapse-action topic_agv_y4j_jjb-d62e133-link" class="wh-expand-btn"></span><span class="title"><a href="how-to.html" id="topic_agv_y4j_jjb-d62e133-link">How-to...</a></span></span><ul role="group" class="navbar-nav nav-list"><span class="expand-button-action-labels"><span id="button-expand-action" aria-label="Expand"></span><span id="button-collapse-action" aria-label="Collapse"></span><span id="button-pending-action" aria-label="Pending"></span></span><li role="treeitem"><span data-tocid="how_to_use_this_template-d62e141" class="topicref" data-id="how_to_use_this_template" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="how_to_use_this_template.html" id="how_to_use_this_template-d62e141-link">use this template</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">This procedure shows template users how to use the Microsoft Word template, shown in             <a href="word_templates.html" class="xref">word_templates.html</a> with <u class="ph u">Word for Mac</u>. </p></span></span></span></li><li role="treeitem" class="active"><span data-tocid="task_s11_55k_jjb-d62e157" class="topicref" data-id="task_s11_55k_jjb" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="how_to_build_this_website.html" id="task_s11_55k_jjb-d62e157-link">build and deploy this website</a><span class="wh-tooltip"><p xmlns:toc="http://www.oxygenxml.com/ns/webhelp/toc" xmlns:xhtml="http://www.w3.org/1999/xhtml" class="shortdesc">This procedure steps through the process that was undertaken to build and deploy this         website <u class="ph u">on a Mac</u>.</p></span></span></span></li></ul></li><li role="treeitem"><span data-tocid="video_instructions-d62e171" class="topicref" data-id="video_instructions" data-state="leaf"><span role="button" class="wh-expand-btn"></span><span class="title"><a href="video_instructions.html" id="video_instructions-d62e171-link">Video Instructions</a></span></span></li></ul></li></ul></div>
+                        </nav>
+                    
+                    
+                    <div class="col-lg-9 col-md-9 col-sm-12" id="wh_topic_body">
+                        <div class=" wh_topic_content body "><main role="main"><article role="article" aria-labelledby="ariaid-title1">
+    <h1 class="title topictitle1" id="ariaid-title1">build and deploy this website</h1>
+    
+    <div class="body taskbody"><p class="shortdesc">This procedure steps through the process that was undertaken to build and deploy this
+        website <u class="ph u">on a Mac</u>.</p>
+        <section class="section context"><div class="note note note_note"><span class="note__title">Note:</span> Under normal circumstances, a procedure like this would be broken into
+                several tasks with many assumptions called out. Keep in mind that the purpose of
+                this procedure is to demonstrate an ability to leverage a breadth of DITA authoring
+                capabilities.</div>The following tools were utilized for this task:<table class="table frame-all" id="task_s11_55k_jjb__table_trv_nvk_jjb"><caption><span class="table--title-label">Table 1. </span><span class="title">Tools for building philipboltonjr.com</span></caption><colgroup><col style="width:24.813895781637722%" /><col style="width:75.18610421836229%" /></colgroup><thead class="thead">
+                        <tr>
+                            <th class="entry align-left colsep-0 rowsep-0" id="task_s11_55k_jjb__table_trv_nvk_jjb__entry__1">Tool</th>
+                            <th class="entry align-left colsep-0 rowsep-0" id="task_s11_55k_jjb__table_trv_nvk_jjb__entry__2">Purpose or Role</th>
+                        </tr>
+                    </thead><tbody class="tbody">
+                        <tr>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__1 ">Oxygen XML Editor</td>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__2 ">Used to author the source files and publish the output web
+                                files</td>
+                        </tr>
+                        <tr>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__1 ">Snagit</td>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__2 ">Used for screenshots and playable gifs</td>
+                        </tr>
+                        <tr>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__1 ">GoDaddy</td>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__2 ">Used to purchase domain, hosting, and web security
+                                services</td>
+                        </tr>
+                        <tr>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__1 ">Homebrew</td>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__2 ">Used as prerequisite to installing Git</td>
+                        </tr>
+                        <tr>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__1 ">Git</td>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__2 ">Used version controlling the source and output files </td>
+                        </tr>
+                        <tr>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__1 ">GitHub</td>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__2 ">Used as source and output file repository</td>
+                        </tr>
+                        <tr>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__1 ">Terminal</td>
+                            <td class="entry align-left colsep-0 rowsep-0" headers="task_s11_55k_jjb__table_trv_nvk_jjb__entry__2 ">Used as Git CLI </td>
+                        </tr>
+                    </tbody></table></section>
+        <section><div class="li stepsection">Obtain Oxygen XML Editor</div><ol class="ol steps"><li class="li step stepexpand">
+                <span class="ph cmd">In a browser, navigate to <a class="xref" href="https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html" target="_blank">https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html</a></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Download</span></span>
+                <div class="itemgroup stepresult">A form appears alongside the download pop-up </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Select a location to save the Oxygen XML Editor download</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Fill-out the form with a valid email address in order to receive the 30-day
+                    trial license</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Get Trial License</span></span>
+                <div class="itemgroup info"><img class="image" id="task_s11_55k_jjb__image_q2c_4ql_jjb" src="oxygen-trial-license-button.png" width="96" /></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Check email and copy the trial license text</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Open the Oxygen XML Editor download package</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Paste the license information</span>
+            </li></ol><div class="li stepsection">Install Git, create a Git repository in GitHub, add SSH public key to
+                GitHub, and clone repository locally</div><ol class="ol steps" start="9"><li class="li step stepexpand">
+                <span class="ph cmd">Open Terminal</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In a browser, navigate to <a class="xref" href="https://brew.sh/" target="_blank">https://brew.sh/</a> and copy the following "Install Homebrew" command and
+                    paste it into Terminal </span>
+                <div class="itemgroup info">
+                    <pre class="pre codeblock"><code>$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</code></pre>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Hit return to install Homebrew</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">After the Homebrew installation complets, navigate to <a class="xref" href="https://git-scm.com/book/en/v1/Getting-Started-Installing-Git" target="_blank">https://git-scm.com/book/en/v1/Getting-Started-Installing-Git</a> and copy the following command in Terminal </span>
+                <div class="itemgroup info">
+                    <pre class="pre codeblock"><code>$ brew install git</code></pre>
+                </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Hit return to install Git</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In a browser, navigate to <a class="xref" href="https://github.com" target="_blank">https://github.com</a></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Login with credentials</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In the top toolbar, click <span class="ph menucascade"><span class="ph uicontrol">+</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">New Repository</span></span></span>
+                <div class="itemgroup info"><img class="image" id="task_s11_55k_jjb__image_yfd_drl_jjb" src="github_new_repository.png" width="192" /></div>
+                <div class="itemgroup stepresult">A form will appear</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In the Repository name field, type dita_portfolio</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In the Description field, type a description</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Keep the Public repository setting selected</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Select the checkbox to Initialize this repository with a
+                    README</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Create repository</span></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">From the repository page, click <span class="ph uicontrol">Clone or download</span></span>
+                <div class="itemgroup stepresult">A dropdown menu appears.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In the upper right of the dropdown menu, click <span class="ph uicontrol">Use
+                    SSH</span></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click the copy button to copy the clone repository path which is in the
+                    following format:</span>
+                <div class="itemgroup info">
+                    <pre class="pre codeblock"><code>git@github.com:&lt;username&gt;/&lt;repository name&gt;.git</code></pre>
+                </div>
+                <div class="itemgroup info"><img class="image" id="task_s11_55k_jjb__image_nmt_5rl_jjb" src="github_clone.png" width="269" /></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In Terminal, navigate to the desired root folder for the Git repository with
+                    the cd command</span>
+                <div class="itemgroup info">For example:</div>
+                <div class="itemgroup info">
+                    <pre class="pre codeblock"><code>$ cd dita_portfolio</code></pre>
+                </div>
+            </li><li class="li step stepexpand" id="task_s11_55k_jjb__step26">
+                <span class="ph cmd">Run the following command: </span>
+                <div class="itemgroup info">
+                    <pre class="pre codeblock"><code>$ git clone git@github.com:pbjStand/dita_portfolio.git</code></pre>
+                </div>
+                <div class="itemgroup stepresult">Experience an error and bang head against the table since the SSH keys
+                    were forgotten.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Navigate to the public key and copy it</span>
+                <div class="itemgroup info">If not familiar with SSH keys, use the following guidance from GitHub: <a class="xref" href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent" target="_blank">https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent</a><div class="note danger note_danger"><span class="note__title">DANGER:</span> Do NOT copy the private
+                        key or allow the private key to be exposed to anyone or anywhere. Always use
+                        the key file that ends with <code class="ph codeph">.pub</code>. If the private key is
+                        ever exposed, delete the keys and generate new ones.</div></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In a browser, navigate to <a class="xref" href="https://github.com" target="_blank">https://github.com</a></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In the top toolbar, click on the profile picture then
+                        <span class="ph uicontrol">Settings</span></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">From the Settings page, click <span class="ph uicontrol">SSH and GPG Keys</span></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">New SSH key</span></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Paste the public key</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Add SSH key</span></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Repeat Step <a class="xref" href="#task_s11_55k_jjb__step26">26</a>
+                </span>
+                <div class="itemgroup stepresult">Terminal will prompt for a passphrase</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Enter passphrase for the key</span>
+                <div class="itemgroup stepresult">The dita_portfolio repository is established locally</div>
+            </li></ol><div class="li stepsection">Authoring website source files and generating website output
+                files</div><ol class="ol steps" start="36"><li class="li step stepexpand">
+                <span class="ph cmd">Open the Oxygen XML Editor application</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">From the Mac toolbar, select <span class="ph menucascade"><span class="ph uicontrol">Project</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">New Project</span></span></span>
+                <div class="itemgroup info"><img class="image" id="task_s11_55k_jjb__image_fjm_3sl_jjb" src="oxygen_new_project.png" width="384" /></div>
+                <div class="itemgroup stepresult">The new project dialog box appears.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">For the new project local, select the local <code class="ph codeph">dita_portfolio</code>
+                    folder</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Save</span></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Create DITA document</span>
+                <div class="itemgroup info">This is means the source files such as DITA maps and topics. </div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">From the Mac toolbar, select <span class="ph menucascade"><span class="ph uicontrol">Document</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Transformation</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Apply Transformation Scenario(s)</span></span></span>
+                <div class="itemgroup stepresult">A pop-up will appear.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Select the DITA Map WebHelp Responsive output type </span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Apply</span></span>
+                <div class="itemgroup stepresult">This will generate the website output files in the following relative
+                    directory <code class="ph codeph">dita_portfolio/out/webhelp-responsive</code></div>
+            </li></ol><div class="li stepsection">Stage, commit, and push files from local repository to remote GitHub
+                repository</div><ol class="ol steps" start="44"><li class="li step stepexpand">
+                <span class="ph cmd">In Terminal, run the following command from the <code class="ph codeph">dita_portfolio</code>
+                    root directory:</span>
+                <div class="itemgroup info">
+                    <pre class="pre codeblock"><code>$ git add -A</code></pre>
+                </div>
+                <div class="itemgroup stepresult">This will stage all repository changes</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Now run the following comand: </span>
+                <div class="itemgroup info">
+                    <pre class="pre codeblock"><code>$ git commit -am '&lt;insert commit message&gt;'</code></pre>
+                </div>
+                <div class="itemgroup stepresult">This takes a snapshot of files in the version history</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Last, run the following command:</span>
+                <div class="itemgroup info">
+                    <pre class="pre codeblock"><code>$ git push</code></pre>
+                </div>
+                <div class="itemgroup stepresult">Terminal will prompt for a passphrase</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Enter passphrase for the key</span>
+                <div class="itemgroup stepresult">The latest committed local <code class="ph codeph">dita_portfolio</code> version is
+                    pushed to the remote GitHub repository. </div>
+            </li></ol><div class="li stepsection">Create zip of website output files</div><ol class="ol steps" start="48"><li class="li step stepexpand">
+                <span class="ph cmd">Open Finder</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Navigate to <code class="ph codeph">dita_portfolio/out/webhelp-responsive</code></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Select all files inside the <code class="ph codeph">webhelp-responsive</code> folder with
+                        <code class="ph codeph">Cmd-A</code></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">On the selected files <span class="ph menucascade"><span class="ph uicontrol">right-click</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Compress [x number of] Items</span></span></span>
+                <div class="itemgroup info"><img class="image" id="task_s11_55k_jjb__image_o4q_wsl_jjb" src="archive_file.png" width="365" /></div>
+                <div class="itemgroup stepresult">All website files are now contained in the
+                        <code class="ph codeph">webhelp-responsive</code> folder as file called
+                        <code class="ph codeph">Archive.zip</code></div>
+            </li></ol><div class="li stepsection">GoDaddy purchase, file upload, and security enhancement</div><ol class="ol steps" start="52"><li class="li step stepexpand">
+                <span class="ph cmd">In a browser, navigate to <a class="xref" href="https://www.godaddy.com" target="_blank">https://www.godaddy.com</a></span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Buy domain, hosting, and security services</span>
+                <div class="itemgroup info">Condensing this step for everyone's sake. The outcome is that the
+                    philipboltonjr.com domain is now associated with the hosted service.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">From the GoDaddy My Products tab under the Web Hosting section, click
+                        <span class="ph uicontrol">Manage</span></span>
+                <div class="itemgroup info"><img class="image" id="task_s11_55k_jjb__image_djc_mtl_jjb" src="godaddy_manage_hosting.png" width="480" /></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">From the web hosting management page, click the <span class="ph uicontrol">File
+                        Manager</span></span>
+                <div class="itemgroup info"><img class="image" id="task_s11_55k_jjb__image_nps_xtl_jjb" src="godaddy_hosting_file_mgr.png" width="384" /></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Double click the <span class="ph uicontrol">public_html</span> folder</span>
+                <div class="itemgroup info">This folder is where website files are exposed to the internet <img class="image" id="task_s11_55k_jjb__image_x12_gvl_jjb" src="godaddy_hosting_file_mgr_wndw.png" width="672" /></div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Upload</span></span>
+                <div class="itemgroup stepresult">A new upload page appears</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Select (or drag and drop in the window) the <code class="ph codeph">Archive.zip</code> file
+                </span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Go back to the File Manager page</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">Click <span class="ph uicontrol">Reload</span> to refresh the files</span>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">In the file list, find the <code class="ph codeph">Archive.zip</code> and <span class="ph menucascade"><span class="ph uicontrol">right-click</span><abbr title="and then"> &gt; </abbr><span class="ph uicontrol">Extract</span></span>.</span>
+                <div class="itemgroup stepresult">The files are now uncompressed and the website is available momentarily.
+                    Check philipboltonjr.com to verify.</div>
+            </li><li class="li step stepexpand">
+                <span class="ph cmd">To ensure that the website visitors feel safe, consider
+                    redirecting HTTP traffic to HTTPS with the following GoDaddy guidance: <a class="xref" href="https://www.godaddy.com/help/redirect-my-cpanel-website-to-https-27870" target="_blank">https://www.godaddy.com/help/redirect-my-cpanel-website-to-https-27870</a></span>
+            </li></ol></section>
+    </div>
+</article></main></div>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+            </div>
+        </div> 
+        <footer class="navbar navbar-default wh_footer" whc:version="21.1">
+  <div class=" footer-container mx-auto ">
+    Generated by <a class="oxyFooter" href="http://www.oxygenxml.com/xml_webhelp.html" target="_blank">&lt;oXygen/&gt; XML WebHelp</a> - Trial Edition
+  </div>
+</footer>
+        
+        <div id="go2top">
+            <span class="oxy-icon oxy-icon-up"></span>
+        </div>
+        
+        <!-- The modal container for images -->
+        <div id="modal_img_large" class="modal">
+            <span class="close oxy-icon oxy-icon-remove"></span>
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="modal-img" />
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+        </div>
+        
+        
+    </body>
+</html>

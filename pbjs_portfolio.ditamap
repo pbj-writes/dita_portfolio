@@ -6,6 +6,7 @@
         <topicref href="word_templates.dita"/>
         <topicref href="how-to.dita">
             <topicref href="how_to_use_this_template.dita"/>
+            <topicref href="how_to_build_this_website.dita"/>
         </topicref>
         <topicref href="video_instructions.dita"/>
     </topicref>

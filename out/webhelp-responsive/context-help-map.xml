@@ -18,5 +18,6 @@
    <appContext helpID="word_templates" path="word_templates.html"/>
    <appContext helpID="topic_agv_y4j_jjb" path="how-to.html"/>
    <appContext helpID="how_to_use_this_template" path="how_to_use_this_template.html"/>
+   <appContext helpID="task_s11_55k_jjb" path="how_to_build_this_website.html"/>
    <appContext helpID="video_instructions" path="video_instructions.html"/>
 </map>
