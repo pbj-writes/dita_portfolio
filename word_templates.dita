@@ -3,18 +3,29 @@
 <topic id="word_templates">
     <title>Word Templates</title>
     <body>
-        <p>I have two Microsoft Word templates available for sharing as PDFs. Why PDF, you say?
-            Well, these are my works and if you like what you see then you can ask me about them. </p>
+        <p>I have three Microsoft Word templates available for sharing. The first two I am sharing
+            as PDFs. Why PDF, you say? Well, these are my works and if you like what you see then
+            you can ask me about them. The first two are templates were created recently and are
+            posted in a generic format while the third template was created several years ago for a
+            position in higher education.</p>
         <p>
-            <note>These were former work products but they are posted in a generic format. See the
-                link below for example how-to use this template procedures.</note>
+            <ol id="ol_a5v_xjn_jjb">
+                <li>This template is used for technical documents such as design or architecture
+                    docs: <xref href="doc_template_1.pdf" format="pdf"/><note>See the link below for
+                        example how-to use this template procedures.</note></li>
+                <li>This template is used for reports or requests: <xref href="doc_template_2.pdf"
+                        format="pdf"/></li>
+                <li>This template is a signature page form for students to plug into their theses or
+                    disserations: <xref href="doc_template_3.doc" format="doc"/><note>See the link
+                        below for the corresponding video instructions for using this
+                    form.</note></li>
+            </ol>
         </p>
-        <p>This template is used for technical documents such as design or architecture docs: <xref
-                href="doc_template_1.pdf" format="pdf"/></p>
-        <p>This template is used for reports or requests: <xref href="doc_template_2.pdf"
-                format="pdf"/></p>
     </body>
     <related-links>
         <link href="how_to_use_this_template.dita"/>
+        <link href="video_instructions.dita#video_instructions/vid3">
+            <linktext>Signature page format video</linktext>
+        </link>
     </related-links>
 </topic>

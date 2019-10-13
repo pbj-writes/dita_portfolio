@@ -332,8 +332,8 @@
             </step>
             <step>
                 <cmd>Double click the <uicontrol>public_html</uicontrol> folder</cmd>
-                <info>This folder is where website files are exposed to the internet <image
-                        placement="inline" href="godaddy_hosting_file_mgr_wndw.png" width="7in"
+                <info>This folder is where website files are exposed to the internet</info>
+                <info><image placement="inline" href="godaddy_hosting_file_mgr_wndw.png" width="7in"
                         id="image_x12_gvl_jjb"/></info>
             </step>
             <step>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_odm_byl_jjb">
+    <title>Diagram Samples</title>
+    <body>
+        <p>I have experience creating and producting diagrams, screenshots, logos, and other images
+            with Microsoft Visio, Lucidchart, Adobe Illustrator, Adobe Photoshop, and Snagit. The
+            following examples show some of the variety of work that I have done.</p>
+        <ul id="ul_l2t_25n_jjb">
+            <li><xref href="relational_diagram.dita"/></li>
+            <li><xref href="document_workflow_diagram.dita"/></li>
+            <li><xref href="software_upgrade_by_environment_workflow.dita"/></li>
+        </ul>
+    </body>
+</topic>

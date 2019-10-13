@@ -20,4 +20,12 @@
    <appContext helpID="how_to_use_this_template" path="how_to_use_this_template.html"/>
    <appContext helpID="task_s11_55k_jjb" path="how_to_build_this_website.html"/>
    <appContext helpID="video_instructions" path="video_instructions.html"/>
+   <appContext helpID="editing_samples" path="editing_sample.html"/>
+   <appContext helpID="topic_odm_byl_jjb" path="diagram_samples.html"/>
+   <appContext helpID="relational_diagram" path="relational_diagram.html"/>
+   <appContext helpID="document_workflow_diagram"
+               path="document_workflow_diagram.html"/>
+   <appContext helpID="software_upgrade_by_environment_workflow"
+               path="software_upgrade_by_environment_workflow.html"/>
+   <appContext helpID="topic_rbk_tkn_jjb" path="style_guide_sample.html"/>
 </map>

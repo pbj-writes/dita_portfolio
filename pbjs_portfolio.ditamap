@@ -9,5 +9,12 @@
             <topicref href="how_to_build_this_website.dita"/>
         </topicref>
         <topicref href="video_instructions.dita"/>
+        <topicref href="editing_sample.dita"/>
+        <topicref href="diagram_samples.dita">
+            <topicref href="relational_diagram.dita"/>
+            <topicref href="document_workflow_diagram.dita"/>
+            <topicref href="software_upgrade_by_environment_workflow.dita"/>
+        </topicref>
+        <topicref href="style_guide_sample.dita"/>
     </topicref>
 </map>

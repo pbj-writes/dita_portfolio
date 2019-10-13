@@ -6,7 +6,7 @@
         <p>Granted these are from the time of different screensizes and at least seven years old but
             I worked with what I had at a public university to create instructions for graduate
             students to aid in formatting and submission of electronic theses and disserations
-            (ETD). <note>All the following videoes were produced with Camtasia screencapture
+            (ETD). <note>All the following videoes were produced with Camtasia screen capture
                 software. </note></p>
         <p>The proceeding video tutorial assists students with understanding how to sign-up for an
             account with the university's institutional repository so the student can submit the ETD
@@ -26,7 +26,7 @@
             demonstrates how I templated the signature page as a form to more easily help students
             incorporate it without mistakes. </p>
         <p><object width="560" height="315" data="https://www.youtube.com/embed/GgZ2wfLp-ro"
-                outputclass="iframe">
+                outputclass="iframe" id="vid3" name="Signature Page Formatting Video">
                 <param name="allowfullscreen"/>
             </object></p>
     </body>
