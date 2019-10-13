@@ -222,7 +222,7 @@
                 <cmd>Open the Oxygen XML Editor application</cmd>
             </step>
             <step>
-                <cmd>From the Mac toolbar, select <menucascade>
+                <cmd>From the Mac menu bar, select <menucascade>
                         <uicontrol>Project</uicontrol>
                         <uicontrol>New Project</uicontrol>
                     </menucascade></cmd>
