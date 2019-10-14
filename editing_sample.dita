@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="editing_samples">
-    <title>Editing Sample</title>
+    <title>Editing Samples</title>
     <body>
-        <p>I have prepared one editing sample below with a context cover page. I can provide
-            additional samples upon request. </p>
-        <p><object data="editing_sample.pdf" outputclass="iframe"/></p>
+        <p>Embedded below, I have prepared two editing samples each with a context cover page.</p>
+        <p><object data="editing_sample_1.pdf" outputclass="iframe">
+                <desc>Editing Sample 1</desc>
+            </object></p>
+        <p/>
+        <p><object data="editing_sample_2.pdf" outputclass="iframe">
+                <desc>Editing Sample 2</desc>
+            </object></p>
     </body>
 </topic>
