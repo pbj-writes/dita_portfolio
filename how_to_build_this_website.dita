@@ -9,7 +9,7 @@
                 several tasks with many assumptions called out. Keep in mind that the purpose of
                 this procedure is to demonstrate an ability to leverage a breadth of DITA authoring
                 capabilities.</note>The following tools were utilized for this task:<table
-                frame="all" rowsep="0" colsep="0" id="table_trv_nvk_jjb">
+                frame="all" rowsep="1" colsep="1" id="table_trv_nvk_jjb">
                 <title>Tools for building philipboltonjr.com</title>
                 <tgroup cols="2" align="left">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
@@ -59,99 +59,100 @@
             <step>
                 <cmd>In a browser, navigate to <xref
                         href="https://www.oxygenxml.com/xml_editor/download_oxygenxml_editor.html"
-                        format="html" scope="external"/></cmd>
+                        format="html" scope="external"/>.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Download</uicontrol></cmd>
-                <stepresult>A form appears alongside the download pop-up </stepresult>
+                <cmd>Click <uicontrol>Download</uicontrol>.</cmd>
+                <stepresult>A form appears alongside the download pop-up. </stepresult>
             </step>
             <step>
-                <cmd>Select a location to save the Oxygen XML Editor download</cmd>
+                <cmd>Select a location to save the Oxygen XML Editor download.</cmd>
             </step>
             <step>
                 <cmd>Fill-out the form with a valid email address in order to receive the 30-day
-                    trial license</cmd>
+                    trial license.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Get Trial License</uicontrol></cmd>
+                <cmd>Click <uicontrol>Get Trial License</uicontrol>.</cmd>
                 <info><image placement="inline" href="oxygen-trial-license-button.png" width="1in"
                         id="image_q2c_4ql_jjb"/></info>
             </step>
             <step>
-                <cmd>Check email and copy the trial license text</cmd>
+                <cmd>Check email and copy the trial license text.</cmd>
             </step>
             <step>
-                <cmd>Open the Oxygen XML Editor download package</cmd>
+                <cmd>Open the Oxygen XML Editor download package.</cmd>
             </step>
             <step>
-                <cmd>Paste the license information</cmd>
+                <cmd>Paste the license information.</cmd>
             </step>
             <stepsection>Install Git, create a Git repository in GitHub, add SSH public key to
                 GitHub, and clone repository locally</stepsection>
             <step>
-                <cmd>Open Terminal</cmd>
+                <cmd>Open Terminal.</cmd>
             </step>
             <step>
                 <cmd>In a browser, navigate to <xref href="https://brew.sh/" format="html"
                         scope="external"/> and copy the following "Install Homebrew" command and
-                    paste it into Terminal </cmd>
+                    paste it into Terminal.</cmd>
                 <info>
                     <codeblock>$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"</codeblock>
                 </info>
             </step>
             <step>
-                <cmd>Hit return to install Homebrew</cmd>
+                <cmd>Hit return to install Homebrew.</cmd>
             </step>
             <step>
-                <cmd>After the Homebrew installation complets, navigate to <xref
+                <cmd>After the Homebrew installation completes, navigate to <xref
                         href="https://git-scm.com/book/en/v1/Getting-Started-Installing-Git"
-                        format="html" scope="external"/> and copy the following command in Terminal </cmd>
+                        format="html" scope="external"/> and copy the following command in
+                    Terminal.</cmd>
                 <info>
                     <codeblock>$ brew install git</codeblock>
                 </info>
             </step>
             <step>
-                <cmd>Hit return to install Git</cmd>
+                <cmd>Hit return to install Git.</cmd>
             </step>
             <step>
                 <cmd>In a browser, navigate to <xref href="https://github.com" format="html"
-                        scope="external"/></cmd>
+                        scope="external"/>.</cmd>
             </step>
             <step>
-                <cmd>Login with credentials</cmd>
+                <cmd>Login with credentials.</cmd>
             </step>
             <step>
                 <cmd>In the top toolbar, click <menucascade>
                         <uicontrol>+</uicontrol>
                         <uicontrol>New Repository</uicontrol>
-                    </menucascade></cmd>
-                <info><image placement="inline" href="github_new_repository.png" width="2in"
+                    </menucascade>.</cmd>
+                <info><image placement="inline" href="github_new_repository.png" width="1.8in"
                         id="image_yfd_drl_jjb"/></info>
-                <stepresult>A form will appear</stepresult>
+                <stepresult>A form will appear.</stepresult>
             </step>
             <step>
-                <cmd>In the Repository name field, type dita_portfolio</cmd>
+                <cmd>In the Repository name field, type dita_portfolio.</cmd>
             </step>
             <step>
-                <cmd importance="optional">In the Description field, type a description</cmd>
+                <cmd importance="optional">In the Description field, type a description.</cmd>
             </step>
             <step>
-                <cmd>Keep the Public repository setting selected</cmd>
+                <cmd>Keep the Public repository setting selected.</cmd>
             </step>
             <step>
                 <cmd importance="optional">Select the checkbox to Initialize this repository with a
-                    README</cmd>
+                    README.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Create repository</uicontrol></cmd>
+                <cmd>Click <uicontrol>Create repository</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>From the repository page, click <uicontrol>Clone or download</uicontrol></cmd>
+                <cmd>From the repository page, click <uicontrol>Clone or download</uicontrol>.</cmd>
                 <stepresult>A dropdown menu appears.</stepresult>
             </step>
             <step>
                 <cmd>In the upper right of the dropdown menu, click <uicontrol>Use
-                    SSH</uicontrol></cmd>
+                    SSH</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>Click the copy button to copy the clone repository path which is in the
@@ -164,7 +165,7 @@
             </step>
             <step>
                 <cmd>In Terminal, navigate to the desired root folder for the Git repository with
-                    the cd command</cmd>
+                    the cd command.</cmd>
                 <info>For example:</info>
                 <info>
                     <codeblock>$ cd dita_portfolio</codeblock>
@@ -179,7 +180,7 @@
                     were forgotten.</stepresult>
             </step>
             <step>
-                <cmd>Navigate to the public key and copy it</cmd>
+                <cmd>Navigate to the public key and copy it.</cmd>
                 <info>If not familiar with SSH keys, use the following guidance from GitHub: <xref
                         href="https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent"
                         format="html" scope="external"/><note type="danger">Do NOT copy the private
@@ -189,56 +190,55 @@
             </step>
             <step>
                 <cmd>In a browser, navigate to <xref href="https://github.com" format="html"
-                        scope="external"/></cmd>
+                        scope="external"/>.</cmd>
             </step>
             <step>
                 <cmd>In the top toolbar, click on the profile picture then
-                        <uicontrol>Settings</uicontrol></cmd>
+                        <uicontrol>Settings</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>From the Settings page, click <uicontrol>SSH and GPG Keys</uicontrol></cmd>
+                <cmd>From the Settings page, click <uicontrol>SSH and GPG Keys</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>New SSH key</uicontrol></cmd>
+                <cmd>Click <uicontrol>New SSH key</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Paste the public key</cmd>
+                <cmd>Paste the public key.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Add SSH key</uicontrol></cmd>
+                <cmd>Click <uicontrol>Add SSH key</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Repeat Step <xref href="#task_s11_55k_jjb/step26" format="dita"/>
-                </cmd>
-                <stepresult>Terminal will prompt for a passphrase</stepresult>
+                <cmd>Repeat Step <xref href="#task_s11_55k_jjb/step26" format="dita"/>.</cmd>
+                <stepresult>Terminal will prompt for a passphrase.</stepresult>
             </step>
             <step>
-                <cmd>Enter passphrase for the key</cmd>
-                <stepresult>The dita_portfolio repository is established locally</stepresult>
+                <cmd>Enter passphrase for the key.</cmd>
+                <stepresult>The dita_portfolio repository is established locally.</stepresult>
             </step>
             <stepsection>Authoring website source files and generating website output
                 files</stepsection>
             <step>
-                <cmd>Open the Oxygen XML Editor application</cmd>
+                <cmd>Open the Oxygen XML Editor application.</cmd>
             </step>
             <step>
                 <cmd>From the Mac menu bar, select <menucascade>
                         <uicontrol>Project</uicontrol>
                         <uicontrol>New Project</uicontrol>
-                    </menucascade></cmd>
+                    </menucascade>.</cmd>
                 <info><image placement="inline" href="oxygen_new_project.png" width="4in"
                         id="image_fjm_3sl_jjb"/></info>
                 <stepresult>The new project dialog box appears.</stepresult>
             </step>
             <step>
                 <cmd>For the new project local, select the local <codeph>dita_portfolio</codeph>
-                    folder</cmd>
+                    folder.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Save</uicontrol></cmd>
+                <cmd>Click <uicontrol>Save</uicontrol>.</cmd>
             </step>
             <step>
-                <cmd>Create DITA document</cmd>
+                <cmd>Create DITA document.</cmd>
                 <info>This is means the source files such as DITA maps and topics. </info>
             </step>
             <step>
@@ -246,16 +246,16 @@
                         <uicontrol>Document</uicontrol>
                         <uicontrol>Transformation</uicontrol>
                         <uicontrol>Apply Transformation Scenario(s)</uicontrol>
-                    </menucascade></cmd>
+                    </menucascade>.</cmd>
                 <stepresult>A pop-up will appear.</stepresult>
             </step>
             <step>
-                <cmd>Select the DITA Map WebHelp Responsive output type </cmd>
+                <cmd>Select the DITA Map WebHelp Responsive output type.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Apply</uicontrol></cmd>
+                <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
                 <stepresult>This will generate the website output files in the following relative
-                    directory <codeph>dita_portfolio/out/webhelp-responsive</codeph></stepresult>
+                    directory <codeph>dita_portfolio/out/webhelp-responsive</codeph>.</stepresult>
             </step>
             <stepsection>Stage, commit, and push files from local repository to remote GitHub
                 repository</stepsection>
@@ -265,90 +265,91 @@
                 <info>
                     <codeblock>$ git add -A</codeblock>
                 </info>
-                <stepresult>This will stage all repository changes</stepresult>
+                <stepresult>This will stage all repository changes (i.e., file additions and file
+                    removals).</stepresult>
             </step>
             <step>
                 <cmd>Now run the following comand: </cmd>
                 <info>
                     <codeblock>$ git commit -am '&lt;insert commit message>'</codeblock>
                 </info>
-                <stepresult>This takes a snapshot of files in the version history</stepresult>
+                <stepresult>This takes a snapshot of files in the version history.</stepresult>
             </step>
             <step>
                 <cmd>Last, run the following command:</cmd>
                 <info>
                     <codeblock>$ git push</codeblock>
                 </info>
-                <stepresult>Terminal will prompt for a passphrase</stepresult>
+                <stepresult>Terminal will prompt for a passphrase.</stepresult>
             </step>
             <step>
-                <cmd>Enter passphrase for the key</cmd>
+                <cmd>Enter passphrase for the key.</cmd>
                 <stepresult>The latest committed local <codeph>dita_portfolio</codeph> version is
                     pushed to the remote GitHub repository. </stepresult>
             </step>
             <stepsection>Create zip of website output files</stepsection>
             <step>
-                <cmd>Open Finder</cmd>
+                <cmd>Open Finder.</cmd>
             </step>
             <step>
-                <cmd>Navigate to <codeph>dita_portfolio/out/webhelp-responsive</codeph></cmd>
+                <cmd>Navigate to <codeph>dita_portfolio/out/webhelp-responsive</codeph>.</cmd>
             </step>
             <step>
                 <cmd>Select all files inside the <codeph>webhelp-responsive</codeph> folder with
-                        <codeph>Cmd-A</codeph></cmd>
+                        <codeph>Cmd-A</codeph>.</cmd>
             </step>
             <step>
-                <cmd>On the selected files <menucascade>
+                <cmd>On the selected files, <menucascade>
                         <uicontrol>right-click</uicontrol>
                         <uicontrol>Compress [x number of] Items</uicontrol>
-                    </menucascade></cmd>
+                    </menucascade>.</cmd>
                 <info><image placement="inline" href="archive_file.png" width="3.8in"
                         id="image_o4q_wsl_jjb"/></info>
                 <stepresult>All website files are now contained in the
                         <codeph>webhelp-responsive</codeph> folder as file called
-                        <codeph>Archive.zip</codeph></stepresult>
+                        <codeph>Archive.zip</codeph>.</stepresult>
             </step>
             <stepsection>GoDaddy purchase, file upload, and security enhancement</stepsection>
             <step>
                 <cmd>In a browser, navigate to <xref href="https://www.godaddy.com" format="html"
-                        scope="external"/></cmd>
+                        scope="external"/>.</cmd>
             </step>
             <step>
-                <cmd>Buy domain, hosting, and security services</cmd>
+                <cmd>Buy domain, hosting, and security services.</cmd>
                 <info>Condensing this step for everyone's sake. The outcome is that the
                     philipboltonjr.com domain is now associated with the hosted service.</info>
             </step>
             <step>
                 <cmd>From the GoDaddy My Products tab under the Web Hosting section, click
-                        <uicontrol>Manage</uicontrol></cmd>
+                        <uicontrol>Manage</uicontrol>.</cmd>
                 <info><image placement="inline" href="godaddy_manage_hosting.png" width="5in"
                         id="image_djc_mtl_jjb"/></info>
             </step>
             <step>
                 <cmd>From the web hosting management page, click the <uicontrol>File
-                        Manager</uicontrol></cmd>
+                        Manager</uicontrol>.</cmd>
                 <info><image placement="inline" href="godaddy_hosting_file_mgr.png" width="4in"
                         id="image_nps_xtl_jjb"/></info>
             </step>
             <step>
-                <cmd>Double click the <uicontrol>public_html</uicontrol> folder</cmd>
-                <info>This folder is where website files are exposed to the internet</info>
+                <cmd>Double click the <uicontrol>public_html</uicontrol> folder.</cmd>
+                <info>This folder is where website files are exposed to the internet.</info>
                 <info><image placement="inline" href="godaddy_hosting_file_mgr_wndw.png" width="7in"
                         id="image_x12_gvl_jjb"/></info>
             </step>
             <step>
-                <cmd>Click <uicontrol>Upload</uicontrol></cmd>
-                <stepresult>A new upload page appears</stepresult>
+                <cmd>Click <uicontrol>Upload</uicontrol>.</cmd>
+                <stepresult>A new upload page appears.</stepresult>
             </step>
             <step>
-                <cmd>Select (or drag and drop in the window) the <codeph>Archive.zip</codeph> file
-                </cmd>
+                <cmd>Select (or drag and drop in the window) the <codeph>Archive.zip</codeph>
+                    file.</cmd>
             </step>
             <step>
-                <cmd>Go back to the File Manager page</cmd>
+                <cmd>Go back to the File Manager page.</cmd>
             </step>
             <step>
-                <cmd>Click <uicontrol>Reload</uicontrol> to refresh the files</cmd>
+                <cmd>Click <uicontrol>Reload</uicontrol> to refresh the files.</cmd>
             </step>
             <step>
                 <cmd>In the file list, find the <codeph>Archive.zip</codeph> and <menucascade>
