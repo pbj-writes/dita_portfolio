@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<map>
+    <title><ph conref="../variables/variables.dita#topic_uh1_52m_ljb/name"/>
+        <ph conref="../variables/variables.dita#topic_uh1_52m_ljb/doc_type"/> and Portfolio</title>
+    <topicref href="../topics/pbjs_resume_and_portfolio.dita"/>
+    <topicref href="pbjs_resume.ditamap" format="ditamap"/>
+    <topicref href="pbjs_portfolio.ditamap" format="ditamap"/>
+</map>

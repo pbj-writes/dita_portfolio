@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_uh1_52m_ljb">
+    <title>Variables</title>
+    <body>
+        <p><b>Name</b>: <ph id="name">Philip Bolton Jr's</ph></p>
+        <p><b>Doc Type</b>: <ph id="doc_type">Resume</ph>
+        </p>
+        <p><b>Doc Type (lowercase):</b><ph id="doc_type_lc">resume</ph></p>
+    </body>
+</topic>

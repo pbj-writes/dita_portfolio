@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_dst_pjy_3jb">
+    <title>FICO </title>
+    <body>
+        <p><b>Technical Writer</b></p>
+        <p>
+            <simpletable frame="none" relcolwidth="1* 1*" id="simpletable_bgv_kbz_3jb">
+                <strow>
+                    <stentry>July 2017 - Present</stentry>
+                    <stentry> San Rafael, CA</stentry>
+                </strow>
+            </simpletable>
+        </p>
+        <p>KEY PROJECTS<ul id="ul_u11_41z_3jb">
+                <li>Champion design, user, and training documentation for optimization software
+                    deliveries on rapid client-defined timelines as part of small software delivery
+                    teams</li>
+                <li>Write SOPs for internal team processes and tool adoption (e.g., code spellcheck
+                    checklist, Getting Started with Bitbucket, Getting Started with Docker, and
+                    more)</li>
+                <li>Participate with the FICO Tech Pubs group and the process committee to
+                        streamline the use of the documentation repository and corresponding tools
+                        via our DITA Authoring Guide</li>
+            </ul></p>
+        <p>ACCOMPLISHMENTS<ul id="ul_rwt_1bz_3jb">
+                <li>Implemented text library best practices for our software UI to enable future
+                    localization </li>
+                <li>Gained team buy-in to Jira by taking initiative to drive scrum and planning
+                    meetings until team leaders felt comfortable driving meetings with the tool</li>
+                <li>Recognized by a team Program Director for “…able to quickly grasp and adapt to
+                    the Xpress (Insight) delivery methodology (Jira, SVN, Git), supporting in all
+                    stages of the project, including assisting with testing and training the
+                    end-users…This award is a recognition of commitment and enthusiasm that PBJ
+                    brings to the team.”</li>
+                <li>Recognized by a team Technical Architect for “…contributions on creating
+                    excellent and informative documentation for the Xpress based solutions delivered
+                    to clients…In addition, PBJ has taken the ownership of managing the Jira
+                    projects and volunteered to put together extensive ‘How to’ guides for using
+                    Bitbucket, Jira, Docker, etc.”</li>
+            </ul></p>
+    </body>
+</topic>

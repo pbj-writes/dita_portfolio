@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="topic_ems_zjy_3jb">
+    <title>Technical Skills</title>
+    <body>
+        <p>
+            <simpletable frame="none" relcolwidth="1.0* 4.58*" id="simpletable_sz1_mss_jjb">
+                <strow>
+                    <stentry><b>Authoring Tools </b></stentry>
+                    <stentry>
+                        <p>SGML, HTML, XML, Oxygen XML Editor, ArborText Editor, XMetaL XML Editor,
+                            SDL LiveContent Architect, Notepad++, Microsoft Office, Bluebeam Revu,
+                            Snagit, Camtasia</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Collaboration Tools </b></stentry>
+                    <stentry>Bitbucket, GitHub, SharePoint, Jive, LibGuides, IBM Jazz,
+                        Jira</stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Data Tools </b></stentry>
+                    <stentry>
+                        <p>Microsoft SQL Server, Oracle database solutions, Microsoft Access,
+                            Alchemy</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Design Tools </b></stentry>
+                    <stentry>
+                        <p>Adobe Photoshop, Adobe InDesign, Adobe Illustrator, Adobe Acrobat Pro,
+                            Microsoft Visio</p>
+                    </stentry>
+                </strow>
+                <strow>
+                    <stentry><b>Developer Tools </b></stentry>
+                    <stentry>Visual Studio Code, JavaScript (basic knowledge), Git</stentry>
+                </strow>
+            </simpletable>
+        </p>
+    </body>
+</topic>

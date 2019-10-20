@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="pbjs_resume_and_portfolio">
+    <title>About this <ph conref="../variables/variables.dita#topic_uh1_52m_ljb/doc_type"/> and
+        Portfolio</title>
+    <body>
+        <p>This <ph conref="../variables/variables.dita#topic_uh1_52m_ljb/doc_type_lc"/> and
+            portfolio was authored and generated with the Oxygen XML Editor authoring tool to
+            demonstrate my ability to utilize DITA authoring. </p>
+        <p>The source files and output of this website (DITA document) are hosted on my <xref
+                href="https://github.com/pbjStand/dita_portfolio" format="html" scope="external"
+                >GitHub</xref>.</p>
+    </body>
+</topic>
