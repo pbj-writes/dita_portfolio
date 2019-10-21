@@ -74,8 +74,8 @@
             </step>
             <step>
                 <cmd>Click <uicontrol>Get Trial License</uicontrol>.</cmd>
-                <info><image placement="inline" href="oxygen-trial-license-button.png" width="1in"
-                        id="image_q2c_4ql_jjb"/></info>
+                <info><image placement="inline" href="../img/oxygen-trial-license-button.png"
+                        width="1in" id="image_whb_b4m_ljb"/></info>
             </step>
             <step>
                 <cmd>Check email and copy the trial license text.</cmd>
@@ -126,8 +126,8 @@
                         <uicontrol>+</uicontrol>
                         <uicontrol>New Repository</uicontrol>
                     </menucascade>.</cmd>
-                <info><image placement="inline" href="github_new_repository.png" width="1.8in"
-                        id="image_yfd_drl_jjb"/></info>
+                <info><image placement="inline" href="../img/github_new_repository.png" width="2in"
+                        id="image_kgy_c4m_ljb"/></info>
                 <stepresult>A form will appear.</stepresult>
             </step>
             <step>
@@ -160,8 +160,8 @@
                 <info>
                     <codeblock>git@github.com:&lt;username>/&lt;repository name>.git</codeblock>
                 </info>
-                <info><image placement="inline" href="github_clone.png" width="2.8in"
-                        id="image_nmt_5rl_jjb"/></info>
+                <info><image placement="inline" href="../img/github_clone.png" width="4in"
+                        id="image_gd4_24m_ljb"/></info>
             </step>
             <step>
                 <cmd>In Terminal, navigate to the desired root folder for the Git repository with
@@ -226,8 +226,8 @@
                         <uicontrol>Project</uicontrol>
                         <uicontrol>New Project</uicontrol>
                     </menucascade>.</cmd>
-                <info><image placement="inline" href="oxygen_new_project.png" width="4in"
-                        id="image_fjm_3sl_jjb"/></info>
+                <info><image placement="inline" href="../img/oxygen_new_project.png"
+                        id="image_rpf_g4m_ljb" width="4in"/></info>
                 <stepresult>The new project dialog box appears.</stepresult>
             </step>
             <step>
@@ -303,8 +303,8 @@
                         <uicontrol>right-click</uicontrol>
                         <uicontrol>Compress [x number of] Items</uicontrol>
                     </menucascade>.</cmd>
-                <info><image placement="inline" href="archive_file.png" width="3.8in"
-                        id="image_o4q_wsl_jjb"/></info>
+                <info><image placement="inline" href="../img/archive_file.png" width="3in"
+                        id="image_uz5_34m_ljb"/></info>
                 <stepresult>All website files are now contained in the
                         <codeph>webhelp-responsive</codeph> folder as file called
                         <codeph>Archive.zip</codeph>.</stepresult>
@@ -322,20 +322,20 @@
             <step>
                 <cmd>From the GoDaddy My Products tab under the Web Hosting section, click
                         <uicontrol>Manage</uicontrol>.</cmd>
-                <info><image placement="inline" href="godaddy_manage_hosting.png" width="5in"
-                        id="image_djc_mtl_jjb"/></info>
+                <info><image placement="inline" href="../img/godaddy_manage_hosting.png"
+                        id="image_ebx_k4m_ljb" width="4in"/></info>
             </step>
             <step>
                 <cmd>From the web hosting management page, click the <uicontrol>File
                         Manager</uicontrol>.</cmd>
-                <info><image placement="inline" href="godaddy_hosting_file_mgr.png" width="4in"
-                        id="image_nps_xtl_jjb"/></info>
+                <info><image placement="inline" href="../img/godaddy_hosting_file_mgr.png"
+                        width="4in" id="image_a1v_m4m_ljb"/></info>
             </step>
             <step>
                 <cmd>Double click the <uicontrol>public_html</uicontrol> folder.</cmd>
                 <info>This folder is where website files are exposed to the internet.</info>
-                <info><image placement="inline" href="godaddy_hosting_file_mgr_wndw.png" width="7in"
-                        id="image_x12_gvl_jjb"/></info>
+                <info><image placement="inline" href="../img/godaddy_hosting_file_mgr_wndw.png"
+                        width="4in" id="image_gwt_n4m_ljb"/></info>
             </step>
             <step>
                 <cmd>Click <uicontrol>Upload</uicontrol>.</cmd>
@@ -367,4 +367,7 @@
             </step>
         </steps>
     </taskbody>
+    <related-links>
+        <link href="troubleshooting.dita"/>
+    </related-links>
 </task>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE troubleshooting PUBLIC "-//OASIS//DTD DITA Troubleshooting//EN" "troubleshooting.dtd">
+<troubleshooting id="troubleshooting">
+    <title>Troubleshoot the building of this website</title>
+    <troublebody>
+        <condition>
+            <title>Condition</title>
+            <p>Building this website using these instructions is not working and it is
+                infuriating.</p>
+        </condition>
+        <troubleSolution>
+            <cause>
+                <title>Cause</title>
+                <p>The author of the instructions hoped that nobody tried to follow the instructions
+                    since they are not very good.</p>
+            </cause>
+            <cause id="cause_izs_tkm_ljb">
+                <p>The author intended for this to happen to create a dialog.</p>
+            </cause>
+            <remedy>
+                <title>Remedy</title>
+                <steps>
+                    <step>
+                        <cmd>Contact the author of the instructions. See <xref href="contact.dita"
+                            />.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Ask if the author can write new, better instructions.</cmd>
+                    </step>
+                    <step>
+                        <cmd>Await updated instructions.</cmd>
+                        <stepresult>Celebrate upon receipt of new instructions. </stepresult>
+                    </step>
+                </steps>
+            </remedy>
+        </troubleSolution>
+    </troublebody>
+    <related-links>
+        <link href="how_to_build_this_website.dita"/>
+    </related-links>
+</troubleshooting>

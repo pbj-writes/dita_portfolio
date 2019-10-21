@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
+<topic id="localization_english" xml:lang="en-US" translate="yes">
+    <title translate="yes">Localization</title>
+    <body>
+        <p translate="yes" xml:lang="en-US">View this page in:<ol id="ol_e3w_vkp_ljb">
+                <li><xref href="localization_en.dita">English</xref></li>
+                <li><xref href="localization_jp.dita">日本語</xref></li>
+                <li><xref href="localization_fr.dita">Français</xref></li>
+                <li><xref href="localization_es.dita">Español</xref></li>
+            </ol></p>
+    </body>
+</topic>

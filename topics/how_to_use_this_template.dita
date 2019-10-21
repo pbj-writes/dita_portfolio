@@ -28,7 +28,7 @@
                     <li>From the Microsoft Word <uicontrol>Home</uicontrol> tab, click <menucascade>
                             <uicontrol>Styles</uicontrol>
                             <uicontrol>Para Txt</uicontrol>
-                        </menucascade></li>
+                        </menucascade>.</li>
                     <li>Type or paste text with 'Keep Text Only' option.<note type="remember">After
                             text is entered, highlight the text and navigate to the Styles pane to
                             verify that the Para Txt style is applied—the applied style will have a
@@ -48,8 +48,8 @@
                     <cmd>From the Microsoft Word <uicontrol>Home</uicontrol> tab, click
                             <uicontrol>Figure Caption</uicontrol>.</cmd>
                     <stepresult><image placement="inline"
-                            href="how_to_use_this_template_to_format_figure_captions.gif"
-                            width="5in" id="image_ejx_5sk_jjb"/></stepresult>
+                            href="../img/how_to_use_this_template_to_format_figure_captions.gif"
+                            width="5in" id="image_yzq_wnm_ljb"/></stepresult>
                 </step>
             </steps>
         </taskbody>

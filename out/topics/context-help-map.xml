@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map>
+   <appContext helpID="pbjs_resume_and_portfolio"
+               path="pbjs_resume_and_portfolio.html"/>
+   <appContext helpID="pbjs_resume" path="pbjs_resume.html"/>
+   <appContext helpID="topic_mgn_sgy_3jb" path="summary.html"/>
+   <appContext helpID="topic_n2h_mjy_3jb" path="experience.html"/>
+   <appContext helpID="topic_dst_pjy_3jb" path="FICO.html"/>
+   <appContext helpID="marathon_ts" path="marathon_ts.html"/>
+   <appContext helpID="topic_nlj_h4y_3jb" path="bmpc.html"/>
+   <appContext helpID="topic_qcn_24y_3jb" path="fiu.html"/>
+   <appContext helpID="topic_w34_sjy_3jb" path="education.html"/>
+   <appContext helpID="syracuse_university" path="syracuse_university.html"/>
+   <appContext helpID="suny_cortland" path="suny_cortland.html"/>
+   <appContext helpID="topic_ems_zjy_3jb" path="technical_skillz.html"/>
+   <appContext helpID="topic_a41_ghz_3jb" path="contact.html"/>
+   <appContext helpID="topic_mvk_jgg_jjb" path="pbjs_portfolio.html"/>
+   <appContext helpID="word_templates" path="word_templates.html"/>
+   <appContext helpID="topic_agv_y4j_jjb" path="how-to.html"/>
+   <appContext helpID="how_to_use_this_template" path="how_to_use_this_template.html"/>
+   <appContext helpID="task_s11_55k_jjb" path="how_to_build_this_website.html"/>
+   <appContext helpID="troubleshooting" path="troubleshooting.html"/>
+   <appContext helpID="video_instructions" path="video_instructions.html"/>
+   <appContext helpID="editing_samples" path="editing_samples.html"/>
+   <appContext helpID="topic_odm_byl_jjb" path="diagram_samples.html"/>
+   <appContext helpID="relational_diagram" path="relational_diagram.html"/>
+   <appContext helpID="document_workflow_diagram"
+               path="document_workflow_diagram.html"/>
+   <appContext helpID="software_upgrade_by_environment_workflow"
+               path="software_upgrade_by_environment_workflow.html"/>
+   <appContext helpID="topic_rbk_tkn_jjb" path="style_guide_sample.html"/>
+   <appContext helpID="localization_english" path="localization_en.html"/>
+</map>

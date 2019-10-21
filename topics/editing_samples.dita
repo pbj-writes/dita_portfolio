@@ -4,12 +4,8 @@
     <title>Editing Samples</title>
     <body>
         <p>Embedded below, I have prepared two editing samples each with a context cover page.</p>
-        <p><object data="editing_sample_1.pdf" outputclass="iframe">
-                <desc>Editing Sample 1</desc>
-            </object></p>
+        <p><object data="../file_attach/editing_sample_1.pdf" outputclass="iframe"/></p>
         <p/>
-        <p><object data="editing_sample_2.pdf" outputclass="iframe">
-                <desc>Editing Sample 2</desc>
-            </object></p>
+        <p><object data="../file_attach/editing_sample_2.pdf" outputclass="iframe"/></p>
     </body>
 </topic>

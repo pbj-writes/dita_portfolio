@@ -10,7 +10,7 @@
             more than one rule but a rule can only have one qualifier. Another insight communicated
             in the diagram is that qualifiers do not need to be associated with a rule because a
             qualifier may have expired or is planned for the future.</p>
-        <p><image placement="inline" href="diagram_sample_1.png" width="6.5in"
-                id="image_xls_15n_jjb"/></p>
+        <p><image placement="inline" href="../img/diagram_sample_1.png" width="5in"
+                id="image_zzr_v4m_ljb"/></p>
     </body>
 </topic>

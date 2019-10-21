@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="pbjs_resume">
-    <title><ph conref="../variables/variables.dita#topic_uh1_52m_ljb/doc_type"/></title>
+    <title><ph conref="variables.dita#topic_uh1_52m_ljb/doc_type"/></title>
     <body>
-        <p>This is my <ph conref="../variables/variables.dita#topic_uh1_52m_ljb/doc_type_lc"/> and
-            encompasses 8+ years of work experience as a writer and editor. </p>
+        <p>This is my <ph conref="variables.dita#topic_uh1_52m_ljb/doc_type_lc"/> and encompasses 8+
+            years of work experience as a writer and editor. </p>
     </body>
 </topic>

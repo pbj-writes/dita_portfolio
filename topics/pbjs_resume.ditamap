@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
+<?xml-stylesheet type="text/css" href="../Downloads/pbj.css" title="pbj" alternate="no"?>
+<map>
+    <title><ph conref="variables.dita#topic_uh1_52m_ljb/name"/>
+        <ph conref="variables.dita#topic_uh1_52m_ljb/doc_type"/></title>
+    <topicref href="../topics/pbjs_resume.dita">
+        <topicref href="../topics/summary.dita"/>
+        <topicref href="../topics/experience.dita">
+            <topicref href="../topics/FICO.dita"/>
+            <topicref href="../topics/marathon_ts.dita"/>
+            <topicref href="../topics/bmpc.dita"/>
+            <topicref href="../topics/fiu.dita"/>
+        </topicref>
+        <topicref href="../topics/education.dita">
+            <topicref href="../topics/syracuse_university.dita"/>
+            <topicref href="../topics/suny_cortland.dita"/>
+        </topicref>
+        <topicref href="../topics/technical_skillz.dita"/>
+        <topicref href="../topics/contact.dita"/>
+    </topicref>
+</map>
