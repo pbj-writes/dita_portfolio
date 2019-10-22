@@ -11,4 +11,8 @@
             and how comments are documented.</p>
         <p><image placement="inline" href="../img/diagram_sample_2.png" id="image_w1z_lnm_ljb"/></p>
     </body>
+    <related-links>
+        <link href="relational_diagram.dita"/>
+        <link href="software_upgrade_by_environment_workflow.dita"/>
+    </related-links>
 </topic>

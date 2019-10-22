@@ -4,5 +4,8 @@
     <title>Syracuse University</title>
     <body>
         <p>M.S. Library and Information Science</p>
+        <lines/>
+        <p>Next at: <xref href="fiu.dita"/></p>
+        <p>Previously at: <xref href="suny_cortland.dita"/></p>
     </body>
 </topic>

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE topic PUBLIC "-//OASIS//DTD DITA Topic//EN" "topic.dtd">
 <topic id="topic_dst_pjy_3jb">
-    <title>FICO </title>
+    <title><tm tmtype="reg">FICO</tm>
+    </title>
     <body>
         <p><b>Technical Writer</b></p>
         <p>
@@ -28,16 +29,20 @@
                     localization </li>
                 <li>Gained team buy-in to Jira by taking initiative to drive scrum and planning
                     meetings until team leaders felt comfortable driving meetings with the tool</li>
-                <li>Recognized by a team Program Director for “…able to quickly grasp and adapt to
-                    the Xpress (Insight) delivery methodology (Jira, SVN, Git), supporting in all
-                    stages of the project, including assisting with testing and training the
-                    end-users…This award is a recognition of commitment and enthusiasm that PBJ
-                    brings to the team.”</li>
-                <li>Recognized by a team Technical Architect for “…contributions on creating
-                    excellent and informative documentation for the Xpress based solutions delivered
-                    to clients…In addition, PBJ has taken the ownership of managing the Jira
-                    projects and volunteered to put together extensive ‘How to’ guides for using
-                    Bitbucket, Jira, Docker, etc.”</li>
+                <li>Recognized by a team Program Director for <q>…able to quickly grasp and adapt to
+                        the Xpress (Insight) delivery methodology (Jira, SVN, Git), supporting in
+                        all stages of the project, including assisting with testing and training the
+                        end-users…This award is a recognition of commitment and enthusiasm that PBJ
+                        brings to the team.</q></li>
+                <li>Recognized by a team Technical Architect for <q>…contributions on creating
+                        excellent and informative documentation for the Xpress based solutions
+                        delivered to clients…In addition, PBJ has taken the ownership of managing
+                        the Jira projects and volunteered to put together extensive ‘How to’ guides
+                        for using Bitbucket, Jira, Docker, etc.</q></li>
             </ul></p>
+        <p>
+            <lines/>
+        </p>
+        <p>Previous position: <xref href="marathon_ts.dita"/></p>
     </body>
 </topic>

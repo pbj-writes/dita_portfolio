@@ -4,8 +4,11 @@
     <title>Diagram Samples</title>
     <body>
         <p>I have experience creating and producing diagrams, screenshots, logos, and other images
-            with Microsoft Visio, Lucidchart, Adobe Illustrator, Adobe Photoshop, and Snagit. The
-            following examples show some of the variety of work that I have done.</p>
+            with <tm tmtype="reg">Microsoft</tm>
+            <tm tmtype="reg">Visio</tm>, Lucidchart, <tm tmtype="reg">Adobe</tm>
+            <tm tmtype="reg">Illustrator</tm>, <tm tmtype="reg">Adobe</tm>
+            <tm tmtype="reg">Photoshop</tm>, and <tm tmtype="reg">Snagit</tm>. The following
+            examples show some of the variety of work that I have done.</p>
         <ul id="ul_l2t_25n_jjb">
             <li><xref href="relational_diagram.dita"/></li>
             <li><xref href="document_workflow_diagram.dita"/></li>

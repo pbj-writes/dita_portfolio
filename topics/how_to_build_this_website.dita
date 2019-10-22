@@ -100,7 +100,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Hit return to install Homebrew.</cmd>
+                <cmd>Hit <uicontrol>return</uicontrol> to install Homebrew.</cmd>
             </step>
             <step>
                 <cmd>After the Homebrew installation completes, navigate to <xref
@@ -112,7 +112,7 @@
                 </info>
             </step>
             <step>
-                <cmd>Hit return to install Git.</cmd>
+                <cmd>Hit <uicontrol>return</uicontrol> to install Git.</cmd>
             </step>
             <step>
                 <cmd>In a browser, navigate to <xref href="https://github.com" format="html"
@@ -165,7 +165,7 @@
             </step>
             <step>
                 <cmd>In Terminal, navigate to the desired root folder for the Git repository with
-                    the cd command.</cmd>
+                    the <cmdname>cd</cmdname> command.</cmd>
                 <info>For example:</info>
                 <info>
                     <codeblock>$ cd dita_portfolio</codeblock>
@@ -214,7 +214,8 @@
             </step>
             <step>
                 <cmd>Enter passphrase for the key.</cmd>
-                <stepresult>The dita_portfolio repository is established locally.</stepresult>
+                <stepresult>The <filepath>dita_portfolio</filepath> repository is established
+                    locally.</stepresult>
             </step>
             <stepsection>Authoring website source files and generating website output
                 files</stepsection>
@@ -231,7 +232,7 @@
                 <stepresult>The new project dialog box appears.</stepresult>
             </step>
             <step>
-                <cmd>For the new project local, select the local <codeph>dita_portfolio</codeph>
+                <cmd>For the new project local, select the local <filepath>dita_portfolio</filepath>
                     folder.</cmd>
             </step>
             <step>
@@ -239,7 +240,7 @@
             </step>
             <step>
                 <cmd>Create DITA document.</cmd>
-                <info>This is means the source files such as DITA maps and topics. </info>
+                <info>This means the source files such as DITA maps and topics. </info>
             </step>
             <step>
                 <cmd>From the Mac toolbar, select <menucascade>
@@ -254,19 +255,18 @@
             </step>
             <step>
                 <cmd>Click <uicontrol>Apply</uicontrol>.</cmd>
-                <stepresult>This will generate the website output files in the following relative
-                    directory <codeph>dita_portfolio/out/webhelp-responsive</codeph>.</stepresult>
+                <stepresult>This will generate the website output files.</stepresult>
             </step>
             <stepsection>Stage, commit, and push files from local repository to remote GitHub
                 repository</stepsection>
             <step>
-                <cmd>In Terminal, run the following command from the <codeph>dita_portfolio</codeph>
-                    root directory:</cmd>
+                <cmd>In Terminal, run the following command from the
+                        <filepath>dita_portfolio</filepath> root directory:</cmd>
                 <info>
                     <codeblock>$ git add -A</codeblock>
                 </info>
-                <stepresult>This will stage all repository changes (i.e., file additions and file
-                    removals).</stepresult>
+                <stepresult>This will stage all repository changes (for example, file additions and
+                    file removals).</stepresult>
             </step>
             <step>
                 <cmd>Now run the following comand: </cmd>
@@ -284,19 +284,19 @@
             </step>
             <step>
                 <cmd>Enter passphrase for the key.</cmd>
-                <stepresult>The latest committed local <codeph>dita_portfolio</codeph> version is
-                    pushed to the remote GitHub repository. </stepresult>
+                <stepresult>The latest committed local <filepath>dita_portfolio</filepath> version
+                    is pushed to the remote GitHub repository. </stepresult>
             </step>
             <stepsection>Create zip of website output files</stepsection>
             <step>
                 <cmd>Open Finder.</cmd>
             </step>
             <step>
-                <cmd>Navigate to <codeph>dita_portfolio/out/webhelp-responsive</codeph>.</cmd>
+                <cmd>Navigate to <filepath>dita_portfolio/out/webhelp-responsive</filepath>.</cmd>
             </step>
             <step>
                 <cmd>Select all files inside the <codeph>webhelp-responsive</codeph> folder with
-                        <codeph>Cmd-A</codeph>.</cmd>
+                        <uicontrol>Cmd-A</uicontrol>.</cmd>
             </step>
             <step>
                 <cmd>On the selected files, <menucascade>
@@ -307,7 +307,7 @@
                         id="image_uz5_34m_ljb"/></info>
                 <stepresult>All website files are now contained in the
                         <codeph>webhelp-responsive</codeph> folder as file called
-                        <codeph>Archive.zip</codeph>.</stepresult>
+                        <filepath>Archive.zip</filepath>.</stepresult>
             </step>
             <stepsection>GoDaddy purchase, file upload, and security enhancement</stepsection>
             <step>
@@ -342,7 +342,7 @@
                 <stepresult>A new upload page appears.</stepresult>
             </step>
             <step>
-                <cmd>Select (or drag and drop in the window) the <codeph>Archive.zip</codeph>
+                <cmd>Select (or drag and drop in the window) the <filepath>Archive.zip</filepath>
                     file.</cmd>
             </step>
             <step>
@@ -352,7 +352,7 @@
                 <cmd>Click <uicontrol>Reload</uicontrol> to refresh the files.</cmd>
             </step>
             <step>
-                <cmd>In the file list, find the <codeph>Archive.zip</codeph> and <menucascade>
+                <cmd>In the file list, find the <filepath>Archive.zip</filepath> and <menucascade>
                         <uicontrol>right-click</uicontrol>
                         <uicontrol>Extract</uicontrol>
                     </menucascade>.</cmd>

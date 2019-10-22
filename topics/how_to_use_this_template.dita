@@ -9,8 +9,8 @@
             <p>The key to using this template is two-fold:<ol id="ol_kth_njk_jjb">
                     <li>Always use the template Styles to format content; and</li>
                     <li>If copy/pasting text from an external source (i.e., another document),
-                        always paste as plain text (also sometimes referred to as 'Keep Text
-                            Only').<note type="attention">Copying and pasting content (without
+                        always paste as plain text (also sometimes referred to as <q>Keep Text
+                            Only</q>).<note type="attention">Copying and pasting content (without
                             pasting as text only) from another document can cause serious formatting
                             conflicts in the document because new styles may be introduced to the
                             existing template style set. <p>Word for Windows has a capability to
@@ -25,14 +25,14 @@
             <steps-informal id="steps-informal_szv_4lk_jjb">
                 <ol id="ol_stk_plk_jjb">
                     <li>Place cursor in desired area for regular, paragraph text. </li>
-                    <li>From the Microsoft Word <uicontrol>Home</uicontrol> tab, click <menucascade>
+                    <li>From the Microsoft Word <wintitle>Home</wintitle> tab, click <menucascade>
                             <uicontrol>Styles</uicontrol>
                             <uicontrol>Para Txt</uicontrol>
                         </menucascade>.</li>
-                    <li>Type or paste text with 'Keep Text Only' option.<note type="remember">After
-                            text is entered, highlight the text and navigate to the Styles pane to
-                            verify that the Para Txt style is applied—the applied style will have a
-                            bold highlight around it.</note></li>
+                    <li>Type or paste text with <q>Keep Text Only</q> option.<note type="remember"
+                            >After text is entered, highlight the text and navigate to the Styles
+                            pane to verify that the Para Txt style is applied—the applied style will
+                            have a bold highlight around it.</note></li>
                 </ol>
             </steps-informal>
         </taskbody>
@@ -45,7 +45,7 @@
                     <cmd>After generating a figure caption, highlight the caption.</cmd>
                 </step>
                 <step>
-                    <cmd>From the Microsoft Word <uicontrol>Home</uicontrol> tab, click
+                    <cmd>From the Microsoft Word <wintitle>Home</wintitle> tab, click
                             <uicontrol>Figure Caption</uicontrol>.</cmd>
                     <stepresult><image placement="inline"
                             href="../img/how_to_use_this_template_to_format_figure_captions.gif"

@@ -13,4 +13,8 @@
         <p><image placement="inline" href="../img/diagram_sample_1.png" width="5in"
                 id="image_zzr_v4m_ljb"/></p>
     </body>
+    <related-links>
+        <link href="software_upgrade_by_environment_workflow.dita"/>
+        <link href="document_workflow_diagram.dita"/>
+    </related-links>
 </topic>

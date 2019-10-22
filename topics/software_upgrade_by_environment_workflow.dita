@@ -13,4 +13,8 @@
             accompanied a text description in a workflow document for the software. </p>
         <p><image placement="inline" href="../img/diagram_sample_3.png" id="image_q24_x4m_ljb"/></p>
     </body>
+    <related-links>
+        <link href="document_workflow_diagram.dita"/>
+        <link href="relational_diagram.dita"/>
+    </related-links>
 </topic>
