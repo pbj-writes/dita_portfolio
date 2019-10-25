@@ -4,13 +4,13 @@
     <title>Troubleshoot the building of this website</title>
     <troublebody>
         <condition>
-            <title>Condition</title>
+            <title>The Problem</title>
             <p>Building this website using these instructions is not working and it is
                 infuriating.</p>
         </condition>
         <troubleSolution>
             <cause>
-                <title>Cause</title>
+                <title>The Potential Causes</title>
                 <p>The author of the instructions hoped that nobody tried to follow the instructions
                     since they are not very good.</p>
             </cause>
@@ -18,7 +18,7 @@
                 <p>The author intended for this to happen to create a dialog.</p>
             </cause>
             <remedy>
-                <title>Remedy</title>
+                <title>The Fix</title>
                 <steps>
                     <step>
                         <cmd>Contact the author of the instructions. See <xref href="contact.dita"

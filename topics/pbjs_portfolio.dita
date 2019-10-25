@@ -3,9 +3,10 @@
 <topic id="topic_mvk_jgg_jjb">
     <title>Portfolio</title>
     <body>
-        <p>This portfolio contains several types of content related to my work history and skill set.
-            Unfortunately, half of my past work required a security clearance and is not available
-            for sharing; however, I believe this portfolio provides plenty of samples demonstrating
-            my ability. </p>
+        <p>This portfolio contains several types of content related to my work history and skill
+            set. Unfortunately, half of my past work required a security clearance and is not
+            available for sharing; however, I believe this portfolio provides plenty of samples
+            demonstrating my ability. </p>
+        <p conref="pbjs_resume_and_portfolio.dita#pbjs_resume_and_portfolio/websiteInfo"/>
     </body>
 </topic>
