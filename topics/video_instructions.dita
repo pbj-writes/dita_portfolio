@@ -6,26 +6,17 @@
         <p>Granted these are from the time of different screen sizes and at least seven years old
             but I worked with what I had at a public university to create instructions for graduate
             students to aid in the formatting and submission of electronic theses and dissertations
-            (ETD). <note>All the following videos were produced with Camtasia screen capture
-                software. </note></p>
-        <p>The proceeding video tutorial assists students with sign-up for the university's
-            institutional repository so the student can submit the ETD. </p>
-        <p><object width="560" height="315" data="https://www.youtube.com/embed/o58nKD4CaZ4"
-                outputclass="iframe">
-                <param name="allowfullscreen"/>
-            </object></p>
-        <p>This next video assists students who may not be familiar with Microsoft Word with how to
+            (ETD). <note>These videos were produced with Camtasia screen capture software.
+            </note></p>
+        <p>This video assists students who may not be familiar with Microsoft Word with how to
             generate a table of contents automatically. </p>
         <p><object width="560" height="315" data="https://www.youtube.com/embed/0uaNYw0F4rU"
                 outputclass="iframe">
                 <param name="allowfullscreen"/>
             </object></p>
-        <p>This last video example assists students with their signature page, which is an important
-            page showing the sign-off after a successful defense. This video also demonstrates how I
-            made the signature page into a <xref href="word_templates.dita">form template</xref> to
-            help students incorporate it without mistakes.</p>
-        <p><object width="560" height="315" data="https://www.youtube.com/embed/GgZ2wfLp-ro"
-                outputclass="iframe" id="vid3" name="Signature Page Formatting Video">
+        <p>This next video assists students with inserting special characters for equations. </p>
+        <p><object width="560" height="315" data="https://www.youtube.com/embed/AdVQgbvToKY"
+                outputclass="iframe">
                 <param name="allowfullscreen"/>
             </object></p>
     </body>

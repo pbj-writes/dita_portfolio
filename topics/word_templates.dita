@@ -11,14 +11,16 @@
         <p>
             <ol id="ol_a5v_xjn_jjb">
                 <li>This template is used for technical documents such as design or architecture
-                    docs: <xref href="../file_attach/doc_template_1.pdf" format="pdf"/>.<note>See
-                        the link below for example how-to use this template procedures.</note></li>
+                    docs: <xref href="../file_attach/doc_template_1.pdf" format="pdf">Doc Template
+                        1</xref>.<note>See the link below for example how-to use this template
+                        procedures.</note></li>
                 <li>This template is used for reports or requests: <xref
-                        href="../file_attach/doc_template_2.pdf" format="pdf"/>.</li>
+                        href="../file_attach/doc_template_2.pdf" format="pdf">Doc Template
+                    2</xref>.</li>
                 <li>This template is a signature page form for students to plug into their theses or
-                    dissertations: <xref href="../file_attach/doc_template_3.doc" format="doc"
-                        />.<note>See the link below for the corresponding video instructions for
-                        using this form.</note></li>
+                    dissertations: <xref href="../file_attach/doc_template_3.doc" format="doc">Doc
+                        Template 3</xref>.<note>See the link below for the corresponding video
+                        instructions for using this form.</note></li>
             </ol>
         </p>
     </body>
