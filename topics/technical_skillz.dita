@@ -10,17 +10,18 @@
                     <stentry>
                         <p>SGML, HTML, XML, <tm tmtype="reg">oXygen</tm> XML Editor, ArborText
                             Editor, <tm tmtype="reg">XMetaL</tm> XML Editor, SDL LiveContent
-                            Architect, Notepad++, <tm tmtype="reg">Microsoft</tm> Office, <tm
-                                tmtype="reg">Bluebeam</tm>
+                            Architect, SDL Tridion Docs, Notepad++, <tm tmtype="reg">Microsoft</tm>
+                            Office, <tm tmtype="reg">Bluebeam</tm>
                             <tm tmtype="reg">Revu</tm>, <tm tmtype="reg">Snagit</tm>, <tm
-                                tmtype="reg">Camtasia</tm></p>
+                                tmtype="reg">Camtasia</tm>, Markdown</p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry><b>Collaboration Tools </b></stentry>
                     <stentry><tm tmtype="reg">Bitbucket</tm>, GitHub, SharePoint, Jive, LibGuides,
                             <tm tmtype="reg">IBM</tm>
-                        <tm tmtype="reg">Jazz</tm>, <tm tmtype="reg">Jira</tm></stentry>
+                        <tm tmtype="reg">Jazz</tm>, <tm tmtype="reg">Jira</tm>, Smartsheet, Box,
+                        Miro</stentry>
                 </strow>
                 <strow>
                     <stentry><b>Data Tools </b></stentry>
@@ -39,12 +40,13 @@
                             <tm tmtype="reg">InDesign</tm>, <tm tmtype="reg">Adobe</tm>
                             <tm tmtype="reg">Illustrator</tm>, <tm tmtype="reg">Adobe</tm> Acrobat
                             Pro, <tm tmtype="reg">Microsoft</tm>
-                            <tm tmtype="reg">Visio</tm></p>
+                            <tm tmtype="reg">Visio</tm>, LucidChart, Pencil, </p>
                     </stentry>
                 </strow>
                 <strow>
                     <stentry><b>Developer Tools </b></stentry>
-                    <stentry>Visual Studio Code, JavaScript (basic knowledge), Git</stentry>
+                    <stentry>Visual Studio Code, JavaScript (basic knowledge), Git, Royal TSX,
+                        Docker</stentry>
                 </strow>
             </simpletable>
         </p>

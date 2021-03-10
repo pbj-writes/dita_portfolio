@@ -221,6 +221,4 @@ localization["inst.adminPass2"]="Confirm Administrator Password";
 localization["inst.start"]="Start Installation";
 localization["inst.nextStep"]="Next Step";
 localization["excluded.terms"]="Excluded terms:";
-localization["topic.title"]="Localization";
-localization["view.lang"]="View this page in:";
 return localization;});

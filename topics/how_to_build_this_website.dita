@@ -10,7 +10,7 @@
                 this procedure is to demonstrate an ability to leverage a breadth of DITA authoring
                 capabilities.</note>The following tools were utilized for this task:<table
                 frame="all" rowsep="1" colsep="1" id="table_trv_nvk_jjb">
-                <title>Tools for building philipboltonjr.com</title>
+                <title>Tools for building pbjWrites.work</title>
                 <tgroup cols="2" align="left">
                     <colspec colname="c1" colnum="1" colwidth="1*"/>
                     <colspec colname="c2" colnum="2" colwidth="3.03*"/>
@@ -317,7 +317,7 @@
             <step>
                 <cmd>Buy domain, hosting, and security services.</cmd>
                 <info>Condensing this step for everyone's sake. The outcome is that the
-                    philipboltonjr.com domain is now associated with the hosted service.</info>
+                    pbjWrites.work domain is now associated with the hosted service.</info>
             </step>
             <step>
                 <cmd>From the GoDaddy My Products tab under the Web Hosting section, click
@@ -357,7 +357,7 @@
                         <uicontrol>Extract</uicontrol>
                     </menucascade>.</cmd>
                 <stepresult>The files are now uncompressed and the website is available momentarily.
-                    Check philipboltonjr.com to verify.</stepresult>
+                    Check pbjWrites.work to verify.</stepresult>
             </step>
             <step>
                 <cmd importance="optional">To ensure that the website visitors feel safe, consider

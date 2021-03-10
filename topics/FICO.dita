@@ -4,11 +4,20 @@
     <title><tm tmtype="reg">FICO</tm>
     </title>
     <body>
-        <p><b>Technical Writer</b></p>
+        <p><b>Lead Technical Writer </b></p>
         <p>
             <simpletable frame="none" relcolwidth="1* 1*" id="simpletable_bgv_kbz_3jb">
                 <strow>
-                    <stentry>July 2017 - Present</stentry>
+                    <stentry>November 2019 - Present</stentry>
+                    <stentry> San Rafael, CA / Fairfax, VA</stentry>
+                </strow>
+            </simpletable>
+        </p>
+        <p><b>Technical Writer </b></p>
+        <p>
+            <simpletable frame="none" relcolwidth="1* 1*" id="simpletable_jzs_mzl_x4b">
+                <strow>
+                    <stentry>July 2017 - October 2019</stentry>
                     <stentry> San Rafael, CA</stentry>
                 </strow>
             </simpletable>
@@ -18,11 +27,13 @@
                     deliveries on rapid client-defined timelines as part of small software delivery
                     teams</li>
                 <li>Write SOPs for internal team processes and tool adoption (e.g., code spellcheck
-                    checklist, Getting Started with Bitbucket, Getting Started with Docker, and
-                    more)</li>
-                <li>Participate with the FICO Tech Pubs group and the process committee to
-                        streamline the use of the documentation repository and corresponding tools
-                        via our DITA Authoring Guide</li>
+                    checklist, Getting Started with Bitbucket, Getting Started with Docker, Managing
+                    Jenkins, and more)</li>
+                <li>Participate with the FICO Tech Pubs group to improve processes, test new
+                    documentation portal system, and test CMS upgrade from SDL Live Content
+                    Architect (2014) to SDL Tridion Docs (2020)</li>
+                <li>Execute DevOps tasks  (Docker, Jenkins, Jira, cloud server management, and user
+                    access) </li>
             </ul></p>
         <p>ACCOMPLISHMENTS<ul id="ul_rwt_1bz_3jb">
                 <li>Implemented text library best practices for our software UI to enable future
